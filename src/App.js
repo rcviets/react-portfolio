@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Hero from "./components/avatar";
 import Socials from "./components/social";
 import Title from "./components/title";
+import JobCards from "./components/card";
 import "./App.css";
 
 function App() {
@@ -27,7 +28,9 @@ function App() {
         </Col>
         <Col md={4}></Col>
       </Row>
-
+        <Row>
+            <JobCards />
+        </Row>
     </div>
   );
 }

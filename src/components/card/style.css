@@ -1,0 +1,6 @@
+.job-image {
+    background-color: transparent;
+    border-color: transparent;
+    max-width: 50%;
+    max-height: fit-content;
+}
