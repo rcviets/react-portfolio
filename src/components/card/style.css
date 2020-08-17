@@ -22,3 +22,8 @@
     border-style: outset;
     margin: 20px;
 }
+
+.job-link {
+    color: #495D63;
+    text-decoration: underline;
+}
