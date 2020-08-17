@@ -21,8 +21,8 @@ const JobCards = () => {
                             <Card.Text className ="job-description">
                                 In process React web app for a construction material manufacturer website.
                             </Card.Text>
-                            <Card.Link href="#">Production Site</Card.Link>
-                            <Card.Link href="#">Code</Card.Link>
+                            <Card.Link href="https://upbeat-brown-2775c3.netlify.app/" target="_blank">Production Site</Card.Link>
+                            <Card.Link href="https://github.com/rcviets/celblox" target="_blank">Code</Card.Link>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -59,7 +59,7 @@ const JobCards = () => {
                     <Card className="job-card" style={{ width: '14rem' }}>
                         <Card.Body>
                             <Card.Title className="job-title">Bamazon</Card.Title>
-                            <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
+                            <Card.Subtitle className="mb-2 text-muted">Command Line Client</Card.Subtitle>
                             <Card.Text className="job-description">
                                 Node based server and MySQL database that track store inventory and cost of purchases.
                             </Card.Text>
