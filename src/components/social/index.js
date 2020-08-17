@@ -4,7 +4,6 @@ import Button from "react-bootstrap/button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelopeOpenText } from "@fortawesome/free-solid-svg-icons";
 import "./style.css";
 
 const Socials = () => {
@@ -17,9 +16,6 @@ const Socials = () => {
                     </Button>
                     <Button href="https://www.linkedin.com/in/randaviets/" target="_blank" variant="link">
                         <FontAwesomeIcon className="social-icon" icon={faLinkedin} size={"2x"} color={"#FAC8CD"} />
-                    </Button>
-                    <Button href="mailto:rcviets@gmail.com" variant="link">
-                        <FontAwesomeIcon className="social-icon" icon={faEnvelopeOpenText} size={"2x"} color={"#FAC8CD"} />
                     </Button>
                 </Col>
             </Row>

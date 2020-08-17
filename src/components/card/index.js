@@ -35,8 +35,8 @@ const JobCards = () => {
                             <Card.Text className="job-description">
                                 React and MongoDB web app with unique user accounts that can create and claim product.
                             </Card.Text>    
-                            <Card.Link href="#">Production Site</Card.Link>
-                            <Card.Link href="#">Code</Card.Link>
+                            <Card.Link href="https://camion-app.herokuapp.com/" target="_blank">Production Site</Card.Link>
+                            <Card.Link href="https://github.com/rcviets/Camion" target ="_blank">Code</Card.Link>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -49,8 +49,8 @@ const JobCards = () => {
                             <Card.Text className="job-description">
                                 Vanilla javascript game with timed questions, score tracker, and win/loss scenario.
                             </Card.Text>
-                            <Card.Link href="#">Production Site</Card.Link>
-                            <Card.Link href="#">Code</Card.Link>
+                            <Card.Link href="https://rcviets.github.io/TriviaGame/" target="_blank">Production Site</Card.Link>
+                            <Card.Link href="https://github.com/rcviets/TriviaGame" target="_blank">Code</Card.Link>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -63,7 +63,7 @@ const JobCards = () => {
                             <Card.Text className="job-description">
                                 Node based server and MySQL database that track store inventory and cost of purchases.
                             </Card.Text>
-                            <Card.Link href="#">Code</Card.Link>
+                            <Card.Link href="https://github.com/rcviets/bamazon" target="_blank">Code</Card.Link>
                         </Card.Body>
                     </Card>
                 </Col>
