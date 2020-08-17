@@ -29,9 +29,11 @@ function App() {
         </Col>
         <Col md={4}></Col>
       </Row>
+        <Col md={12}>
         <Row>
             <JobCards />
         </Row>
+        </Col>
         <Footer />
     </div>
   );

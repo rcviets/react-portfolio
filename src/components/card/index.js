@@ -14,7 +14,7 @@ const JobCards = () => {
             <Row>
                 <Col md={"3"}>
                     <Image className="job-image-celblox" src={Celblox} thumbnail />
-                    <Card className="job-card" style={{ width: '14rem' }}>
+                    <Card className="job-card">
                         <Card.Body>
                             <Card.Title className="job-title">CelBlox</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">Current Project</Card.Subtitle>
@@ -28,7 +28,7 @@ const JobCards = () => {
                 </Col>
                 <Col md={"3"}>
                     <Image className="job-image" src={Camion} thumbnail />
-                    <Card className="job-card" style={{ width: '14rem' }}>
+                    <Card className="job-card">
                         <Card.Body>
                             <Card.Title className="job-title">Camion</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">Group Project</Card.Subtitle>
@@ -42,7 +42,7 @@ const JobCards = () => {
                 </Col>
                 <Col md={"3"}>
                     <Image className="job-image" src={InitialD} thumbnail />
-                    <Card className="job-card" style={{ width: '14rem' }}>
+                    <Card className="job-card">
                         <Card.Body>
                             <Card.Title className="job-title">Initial D Trivia</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">Video Game</Card.Subtitle>
@@ -56,7 +56,7 @@ const JobCards = () => {
                 </Col>
                 <Col md={"3"}>
                     <Image className="job-image" src={Bamazon} thumbnail />
-                    <Card className="job-card" style={{ width: '14rem' }}>
+                    <Card className="job-card">
                         <Card.Body>
                             <Card.Title className="job-title">Bamazon</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">Command Line Client</Card.Subtitle>
