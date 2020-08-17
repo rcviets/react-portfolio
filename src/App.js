@@ -4,6 +4,7 @@ import Hero from "./components/avatar";
 import Socials from "./components/social";
 import Title from "./components/title";
 import JobCards from "./components/card";
+import Footer from "./components/footer";
 import "./App.css";
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
         <Row>
             <JobCards />
         </Row>
+        <Footer />
     </div>
   );
 }

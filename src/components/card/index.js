@@ -13,7 +13,7 @@ const JobCards = () => {
         <Container>
             <Row>
                 <Col md={"3"}>
-                    <Image className="job-image" src={Celblox} thumbnail />
+                    <Image className="job-image-celblox" src={Celblox} thumbnail />
                     <Card className="job-card" style={{ width: '14rem' }}>
                         <Card.Body>
                             <Card.Title className="job-title">CelBlox</Card.Title>
