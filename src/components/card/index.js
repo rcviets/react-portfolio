@@ -21,8 +21,8 @@ const JobCards = () => {
                             <Card.Text className ="job-description">
                                 In process React web app for a construction material manufacturer website.
                             </Card.Text>
-                            <Card.Link className="job-link" href="https://upbeat-brown-2775c3.netlify.app/" target="_blank">Production Site</Card.Link><br />
-                            <Card.Link className="job-link" href="https://rcviets.github.io/celblox_/" target="_blank">Code</Card.Link>
+                            <Card.Link className="job-link" href="https://rcviets.github.io/celblox_/" target="_blank">Production Site</Card.Link><br />
+                            <Card.Link className="job-link" href="https://github.com/rcviets/celblox_" target="_blank">Code</Card.Link>
                         </Card.Body>
                     </Card>
                 </Col>
